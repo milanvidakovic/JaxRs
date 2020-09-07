@@ -11,5 +11,7 @@ To use it, you need to place following files in the <TOMCAT_HOME>/lib folder:
 * aspectjtools-1.9.6.jar
 
 You also need to modify Tomcat startup by adding the following to the VM arguments:
--javaagent:c:\apache-tomcat-7.0.94\lib\aspectjweaver-1.9.6.jar
 
+```
+-javaagent:<TOMCAT_HOME>/lib/aspectjweaver-1.9.6.jar
+```
